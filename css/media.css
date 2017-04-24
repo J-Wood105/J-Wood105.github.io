@@ -1,0 +1,17 @@
+@media only screen and (max-width: 480px) {
+  .projects {
+    width: 100%; } }
+@media screen and (max-width: 480px) {
+  #home {
+    height: 100%; }
+
+  #home button {
+    display: block;
+    width: 100%;
+    margin: 0 auto;
+    margin-top: 5px; }
+
+  #gravatar {
+    margin: 0 auto; } }
+
+/*# sourceMappingURL=media.css.map */

@@ -1,0 +1,173 @@
+// normalize
+@import '_normalize';
+// color palett
+@import "palette";
+// fonts
+@import url('https://fonts.googleapis.com/css?family=Roboto|Roboto+Mono');
+
+h1 {
+  font-family: 'Roboto Mono';
+  font-size: 5em;
+  // font-weight: bold;
+}
+body {
+  font-family: 'Roboto', Helvetica, Arial, sans-serif;
+}
+.nav .navbar-nav li a {
+  color:$darkGrey;
+  &:hover {
+    color:$orange;
+  }
+  &:focus {
+    color:$grey;
+  }
+}
+.navbar-inverse .navbar-brand {
+  color:$orange;
+  &:hover {
+    color:$orange;
+  }
+  &:focus {
+    color:$orange;
+  }
+}
+.navbar-header {
+  color:$darkGrey;
+}
+.navbar-inverse {
+  background-color: $mint;
+}
+section {
+  height:800px;
+}
+#home {
+  background-image:url('https://static.pexels.com/photos/90807/pexels-photo-90807.jpeg');
+  background-size:cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  h1 {
+    color:$mint;
+    margin:10px;
+  }
+  h2 {
+    color:$grey;
+    margin:10px;
+  }
+  .jumbotron {
+    background:rgba($white, .9);
+    border:none;
+    width:100%;
+    margin:0px;
+  }
+  #social {
+    a {
+      text-decoration: none;
+      &:hover {
+        text-decoration: none;
+      }
+    }
+    button {
+      margin:10px 5px;
+      background-color:$orange;
+      border:none;
+      color:$darkGrey;
+      width:45%;
+      &:hover {
+        color:$white;
+      }
+    }
+  }
+}
+
+#about {
+  background-color:$white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  color: $grey;
+  font-size: 1.2em;
+  h1 {
+    color:$orange;
+    font-weight: normal;
+  }
+  .about {
+    width: 40%;
+    margin:20px;
+  }
+  .photo {
+    margin: 20px;
+    #gravatar {
+      width: 300px;
+    }
+  }
+}
+
+#portfolio {
+  background-color:$mint;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  justify-content: center;
+  align-items: center;
+  h1 {
+    color:$darkGrey;
+    margin:20px;
+  }
+  .projects {
+    display:flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    .project {
+      width:180px;
+      margin:10px;
+      .thumbnail {
+        border:none;
+        display: flex;
+        align-items: stretch;
+        flex-direction: column;
+        background-color: $white;
+        h3 {
+          margin:10px auto;
+          padding: 0;
+        }
+        a {
+          text-decoration: none;
+          &:hover {
+            text-decoration: none;
+          }
+        }
+        button {
+          background:$orange;
+          margin-top:5px;
+          border:none;
+          color:$darkGrey;
+          width: 100%;
+          &:hover {
+            background-color: lighten($orange, 10%);
+            color:$white;
+          }
+        }
+      }
+    }
+
+  }
+}
+
+#contact {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  justify-content: center;
+  align-items: center;
+  background-color: $orange;
+}
+a {
+  color:$mint;
+}
+
+
+// import media
+// @import 'media.scss';
