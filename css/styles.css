@@ -140,8 +140,12 @@ a {
   	}
   	#about .photo #gravatar {
   		margin: 0 auto;
-      width: 50%;
+      width: 100%;
   	}
+    h1 {
+      font-size: 4em;
+    }
+
     #about .about {
     	width: 90%;
     	margin: 20px;
