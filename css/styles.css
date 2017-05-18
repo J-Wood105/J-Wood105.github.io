@@ -131,16 +131,7 @@ a {
   color: #4ecdc4; }
 
 
-  @media only screen and (max-width: 480px) {
-  	.projects {
-  		width: 100%;
-  	}
-  }
-
   @media screen and (max-width: 480px) {
-  	#home {
-  		height: 100%;
-  	}
   	#home #social button {
   		display: block;
   		width: 100%;
