@@ -74,9 +74,9 @@ section {
     width: 40%;
     margin: 20px; }
   #about .photo {
-    margin: 20px; }
+    margin: 20px;}
     #about .photo #gravatar {
-      width: 300px; }
+      width: 600px; }
 
 #portfolio {
   background-color: #4ecdc4;
