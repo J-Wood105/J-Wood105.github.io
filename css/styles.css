@@ -30,7 +30,7 @@ section {
   height: 800px; }
 
 #home {
-  background-image: url("https://static.pexels.com/photos/90807/pexels-photo-90807.jpeg");
+  background-image: url("/images/mainimg.png");
   background-size: cover;
   display: flex;
   justify-content: center;
@@ -74,9 +74,9 @@ section {
     width: 40%;
     margin: 20px; }
   #about .photo {
-    margin: 20px;}
+    margin: 20px; }
     #about .photo #gravatar {
-      width: 600px; }
+      width: 300px; }
 
 #portfolio {
   background-color: #4ecdc4;
@@ -129,29 +129,5 @@ section {
 
 a {
   color: #4ecdc4; }
-
-
-  @media screen and (max-width: 480px) {
-  	#home #social button {
-  		display: block;
-  		width: 100%;
-  		margin: 0 auto;
-  		margin-top: 5px;
-  	}
-  	#about .photo #gravatar {
-  		margin: 0 auto;
-      width: 100%;
-  	}
-    h1 {
-      font-size: 4em;
-    }
-
-    #about .about {
-    	width: 90%;
-    	margin: 20px;
-    }
-
-  }
-
 
 /*# sourceMappingURL=styles.css.map */
